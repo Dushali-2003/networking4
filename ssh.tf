@@ -1,0 +1,4 @@
+resource "aws_key_pair" "vm_ssh_key" {
+key_name = "student.50-vm-key"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBtt91fHmXEQE8hIkMb4y3AZhzJ+srT2xAUZK/JR4ms1Y0sLgAUXaLsinwkJczaM/ulBCjY/SN5qyGG12QWrshkUlA/1Pv/nTYSW7SXqHP6awbBjUkNBaCRjrKbG+hrDkgkN2xQGD5UR/pB+jTBB6c1ISZd0c8SFZZ3MzCRAeYoNIqkBATnMWzUx+EjOFBgZ1AW24u1WRJk9u4mQ0OQ5k1sW/HmXHOnVzOoFLjhPLDYbwaWSCIbBJD0bPYysS1vntsoYO1ru8ScHAoLv30gR2D56R6+oI+v8vqUArQPaanmKXUv0Plml/EZ91xGg4mCNqeOFr7FQ+AgQU8xxnzvDhNrkP2IUgE1D0c2wMf1Jhv+bJYXjbsvCInbwuO/9dZvtfy1hxgV4k8eYBN8GL1dW9VNEVpHCaqYUYluXE+1ohGoMsOGB9UY+6aLt65SK/gO7DXUjjzkn2cb9KHfdEFd7m0WkTOarRNAAGTiwvBhBsfqN4BZfF+NfMGHpEjWjsUkmk= dushali@aerintech-HP-ProDesk-600-G2-SFF"
+}
